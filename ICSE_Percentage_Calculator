@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class ICSE_Percentage_Calculator{
+public static void main (String args []){
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the marks of English Language: ");
+double a = sc.nextDouble();
+System.out.println("Enter the marks of English Literature: ");
+double b = sc.nextDouble();
+System.out.println("Enter the marks of Hindi: ");
+double c = sc.nextDouble();
+System.out.println("Enter the marks of Marathi: ");
+double d = sc.nextDouble();
+System.out.println("Enter the marks of Mathematics: ");
+double e = sc.nextDouble();
+System.out.println("Enter the marks of Biology: ");
+double f = sc.nextDouble();
+System.out.println("Enter the marks of Chemistry: ");
+double g = sc.nextDouble();
+System.out.println("Enter the marks of Physics: ");
+double h = sc.nextDouble();
+System.out.println("Enter the marks of History: ");
+double i = sc.nextDouble();
+System.out.println("Enter the marks of Geography: ");
+double k = sc.nextDouble();
+System.out.println("Enter the marks of Computer Applications: ");
+double l = sc.nextDouble();
+double m= ((a+b+c+d+e+f+g+h+i+l)/11);
+System.out.println("Percentage of all subjects:" +m);
+}
+}
+
